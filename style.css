@@ -1,0 +1,26 @@
+#canvas{
+    width: 600px;
+    padding: 200px 20px;
+    text-align: center;
+    border: solid 2px darkred;
+}
+
+span{
+    background: red;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+}
+
+.available span{
+    background: green;
+}
+span > p{
+    cursor: inherit;
+}
+
+.nearby span:after{
+    content: "nearby";
+    margin-left: 10px;
+}
