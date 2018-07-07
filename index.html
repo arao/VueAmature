@@ -8,17 +8,14 @@
 </head>
 <body>
 
-<h1>Components</h1>
-
-<div id="vue-app-one">
-    <h2>Vue App One</h2>
-    <greeting></greeting>
+<h1>Refs</h1>
+<div id="vue-app">
+    <input type="text" ref="input">
+    <button v-on:click="readRef">Refs</button>
+    <p>Your Fav food : {{output}}</p>
+    <div ref="text">Hello</div>
 </div>
 
-<div id="vue-app-two">
-    <h2>Vue App Two</h2>
-    <greeting></greeting>
-</div>
 <script src="app.js"></script>
 </body>
 </html>
