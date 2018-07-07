@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Multiple Vue Instance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
 
+<h1>Multiple Vue Instance</h1>
+
+<div id="vue-app-one">
+    <h2>{{title}}</h2>
+    <p>{{greet}}</p>
+</div>
+<div id="vue-app-two">
+    <h2>{{title}}</h2>
+    <p>{{greet}}</p>
+    <button @click="changeTitle">Change Title</button>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
