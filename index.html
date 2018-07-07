@@ -8,16 +8,16 @@
 </head>
 <body>
 
-<h1>Multiple Vue Instance</h1>
+<h1>Components</h1>
 
 <div id="vue-app-one">
-    <h2>{{title}}</h2>
-    <p>{{greet}}</p>
+    <h2>Vue App One</h2>
+    <greeting></greeting>
 </div>
+
 <div id="vue-app-two">
-    <h2>{{title}}</h2>
-    <p>{{greet}}</p>
-    <button @click="changeTitle">Change Title</button>
+    <h2>Vue App Two</h2>
+    <greeting></greeting>
 </div>
 <script src="app.js"></script>
 </body>
